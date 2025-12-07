@@ -1,0 +1,1 @@
+python dynamic_brake_state.py --no-telephoto  --town Town10HD_Opt --preset quality   --yolo-class-thr "traffic light:0.25,car:0.25,stop sign:0.25"  --min-h-override "stop sign:10,car:10,traffic light:8"   --gate-frac-override "car:0.5,stop sign:0.5"   --gate-lateral-override "car:4.0,stop sign:4.0" 
